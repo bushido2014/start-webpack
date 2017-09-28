@@ -1,1 +1,1 @@
-# start-webpack
+# Sample Basic Webpack Config
