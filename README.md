@@ -1,1 +1,1 @@
-# Sample Basic Webpack Config
+# Simple Basic Webpack Config
