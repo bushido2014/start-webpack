@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Work+Sans:wght@300&display=swap');
+html, body {
+    box-sizing: border-box;
+      height: 100%;
+  }
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit; }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-size: 16px;
+      min-width: 320px;
+      position: relative;
+      line-height: 1.75;
+      overflow-x: hidden;
+      opacity: 1;
+      font-family: 'Work Sans', sans-serif;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 900;
+  }
