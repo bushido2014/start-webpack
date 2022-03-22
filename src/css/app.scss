@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Work+Sans:wght@300&display=swap');
+@import "~normalize.css/normalize.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
 html, body {
     box-sizing: border-box;
       height: 100%;
@@ -17,10 +19,26 @@ html, body {
       line-height: 1.75;
       overflow-x: hidden;
       opacity: 1;
-      font-family: 'Work Sans', sans-serif;
+      font-family: 'Nunito', sans-serif;
     }
 
     h1, h2, h3, h4, h5, h6 {
-      font-family: 'Montserrat', sans-serif;
-      font-weight: 900;
+      font-weight: 700;
+  }
+  img {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 100%;
+    height: auto;
+  }
+
+  header {
+    padding: 10px;
+    text-align: center;
+  }
+  .container {
+    max-width: 1200px;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
   }
